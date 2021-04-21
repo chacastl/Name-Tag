@@ -10,7 +10,7 @@ Public Class Form1
         Dim LabelTextObject3 As DymoSDK.Interfaces.ILabelObject
         DymoSDKLabel = New DymoSDK.Implementations.DymoLabel()
 
-        DymoSDKLabel.LoadLabelFromFilePath("C:\Users\chacastl\Documents\Name_Tags.dymo")
+        DymoSDKLabel.LoadLabelFromFilePath("Name_Tags.dymo")
         LabelTextObject1 = DymoSDKLabel.GetLabelObject("NAME")
         LabelTextObject2 = DymoSDKLabel.GetLabelObject("MAJOR")
         LabelTextObject3 = DymoSDKLabel.GetLabelObject("YEAR")
@@ -23,7 +23,7 @@ Public Class Form1
             DymoSDKLabel.UpdateLabelObject(LabelTextObject3, "Alumni")
         End If
         Dim file As System.IO.StreamWriter
-        file = My.Computer.FileSystem.OpenTextFileWriter("C:\Users\chacastl\Desktop\test.txt", True)
+        file = My.Computer.FileSystem.OpenTextFileWriter("test.txt", True)
         file.WriteLine(" Student Name: " + TextBox1.Text + " Major: " + TextBox2.Text + " Year: " + ComboBox1.Text)
         file.Close()
 
