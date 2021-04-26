@@ -128,10 +128,10 @@
           </Margin>
           <HorizontalAlignment>Left</HorizontalAlignment>
           <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
+          <FitMode>AlwaysFit</FitMode>
           <IsVertical>False</IsVertical>
           <FormattedText>
-            <FitMode>None</FitMode>
+            <FitMode>AlwaysFit</FitMode>
             <HorizontalAlignment>Left</HorizontalAlignment>
             <VerticalAlignment>Top</VerticalAlignment>
             <IsVertical>False</IsVertical>
@@ -140,7 +140,7 @@
                 <Text>Name here</Text>
                 <FontInfo>
                   <FontName>BentonSans</FontName>
-                  <FontSize>20</FontSize>
+                  <FontSize>18.5</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -300,7 +300,7 @@
             </DYMOPoint>
             <Size>
               <Width>3.666667</Width>
-              <Height>0.3541667</Height>
+              <Height>0.427851</Height>
             </Size>
           </ObjectLayout>
         </AddressObject>
