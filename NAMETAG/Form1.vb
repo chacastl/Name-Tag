@@ -44,7 +44,7 @@ Public Class Form1
             Throw fileException
         End Try
         DymoSDKLabel.GetPreviewLabel()
-        ' DymoPrint.Instance.PrintLabel(DymoSDKLabel, "DYMO LabelWriter 450", 1)
+        DymoPrint.Instance.PrintLabel(DymoSDKLabel, "DYMO LabelWriter 450", 1)
         TextBox1.Clear()
         TextBox2.Clear()
         ComboBox1.SelectedIndex = 0
@@ -95,7 +95,4 @@ Public Class Form1
 
     End Sub
 
-    Private Sub PrintPreviewDialog1_Load(sender As Object, e As EventArgs) Handles PrintPreviewDialog1.Load
-
-    End Sub
 End Class
