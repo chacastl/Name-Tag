@@ -44,14 +44,14 @@ Public Class Form1
             Throw fileException
         End Try
         DymoSDKLabel.GetPreviewLabel()
-        DymoPrint.Instance.PrintLabel(DymoSDKLabel, "DYMO LabelWriter 450", 1)
+        DymoPrint.Instance.PrintLabel(DymoSDKLabel, "DYMO LabelWriter 450 Twin Turbo", 1)
         TextBox1.Clear()
         TextBox2.Clear()
         ComboBox1.SelectedIndex = 0
         RadioButton1.Checked = False
         RadioButton2.Checked = True
         ComboBox1.Enabled = True
-
+        PictureBox2.Visible = False
     End Sub
 
 
@@ -66,7 +66,7 @@ Public Class Form1
 
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-
+        PictureBox2.Visible = True
         Dim DymoSDKLabel As DymoSDK.Implementations.DymoLabel
         Dim LabelTextObject1 As DymoSDK.Interfaces.ILabelObject
         Dim LabelTextObject2 As DymoSDK.Interfaces.ILabelObject

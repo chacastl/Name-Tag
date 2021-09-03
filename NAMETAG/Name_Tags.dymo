@@ -27,75 +27,6 @@
       <RotationBehavior>ClearObjects</RotationBehavior>
       <LabelObjects>
         <TextObject>
-          <Name>TEXT</Name>
-          <Brushes>
-            <BackgroundBrush>
-              <SolidColorBrush>
-                <Color A="0" R="1" G="1" B="1"></Color>
-              </SolidColorBrush>
-            </BackgroundBrush>
-            <BorderBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </BorderBrush>
-            <StrokeBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </StrokeBrush>
-            <FillBrush>
-              <SolidColorBrush>
-                <Color A="0" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </FillBrush>
-          </Brushes>
-          <Rotation>Rotation0</Rotation>
-          <OutlineThickness>1</OutlineThickness>
-          <IsOutlined>False</IsOutlined>
-          <BorderStyle>SolidLine</BorderStyle>
-          <Margin>
-            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
-          </Margin>
-          <HorizontalAlignment>Left</HorizontalAlignment>
-          <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
-          <IsVertical>False</IsVertical>
-          <FormattedText>
-            <FitMode>None</FitMode>
-            <HorizontalAlignment>Left</HorizontalAlignment>
-            <VerticalAlignment>Top</VerticalAlignment>
-            <IsVertical>False</IsVertical>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>Name</Text>
-                <FontInfo>
-                  <FontName>BentonSans</FontName>
-                  <FontSize>12</FontSize>
-                  <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>True</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-          </FormattedText>
-          <ObjectLayout>
-            <DYMOPoint>
-              <X>0.2333333</X>
-              <Y>0.6666667</Y>
-            </DYMOPoint>
-            <Size>
-              <Width>0.8125</Width>
-              <Height>0.46875</Height>
-            </Size>
-          </ObjectLayout>
-        </TextObject>
-        <TextObject>
           <Name>NAME</Name>
           <Brushes>
             <BackgroundBrush>
@@ -140,7 +71,7 @@
                 <Text>Name here</Text>
                 <FontInfo>
                   <FontName>BentonSans</FontName>
-                  <FontSize>20.7</FontSize>
+                  <FontSize>24</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -156,150 +87,11 @@
           <ObjectLayout>
             <DYMOPoint>
               <X>0.2333333</X>
-              <Y>0.8645834</Y>
+              <Y>0.8109663</Y>
             </DYMOPoint>
             <Size>
-              <Width>3.682457</Width>
-              <Height>0.4166666</Height>
-            </Size>
-          </ObjectLayout>
-        </TextObject>
-        <AddressObject>
-          <Name>ADDRESS</Name>
-          <Brushes>
-            <BackgroundBrush>
-              <SolidColorBrush>
-                <Color A="0" R="1" G="1" B="1"></Color>
-              </SolidColorBrush>
-            </BackgroundBrush>
-            <BorderBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </BorderBrush>
-            <StrokeBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </StrokeBrush>
-            <FillBrush>
-              <SolidColorBrush>
-                <Color A="0" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </FillBrush>
-          </Brushes>
-          <Rotation>Rotation0</Rotation>
-          <OutlineThickness>1</OutlineThickness>
-          <IsOutlined>False</IsOutlined>
-          <BorderStyle>SolidLine</BorderStyle>
-          <Margin>
-            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
-          </Margin>
-          <HorizontalAlignment>Left</HorizontalAlignment>
-          <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
-          <IsVertical>False</IsVertical>
-          <FormattedText>
-            <FitMode>None</FitMode>
-            <HorizontalAlignment>Left</HorizontalAlignment>
-            <VerticalAlignment>Top</VerticalAlignment>
-            <IsVertical>False</IsVertical>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>Major</Text>
-                <FontInfo>
-                  <FontName>BentonSans</FontName>
-                  <FontSize>12</FontSize>
-                  <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>True</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-          </FormattedText>
-          <BarcodePosition>None</BarcodePosition>
-          <ObjectLayout>
-            <DYMOPoint>
-              <X>0.2433333</X>
-              <Y>1.166667</Y>
-            </DYMOPoint>
-            <Size>
-              <Width>2</Width>
-              <Height>0.25</Height>
-            </Size>
-          </ObjectLayout>
-        </AddressObject>
-        <TextObject>
-          <Name>TEXT_2</Name>
-          <Brushes>
-            <BackgroundBrush>
-              <SolidColorBrush>
-                <Color A="0" R="1" G="1" B="1"></Color>
-              </SolidColorBrush>
-            </BackgroundBrush>
-            <BorderBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </BorderBrush>
-            <StrokeBrush>
-              <SolidColorBrush>
-                <Color A="1" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </StrokeBrush>
-            <FillBrush>
-              <SolidColorBrush>
-                <Color A="0" R="0" G="0" B="0"></Color>
-              </SolidColorBrush>
-            </FillBrush>
-          </Brushes>
-          <Rotation>Rotation0</Rotation>
-          <OutlineThickness>1</OutlineThickness>
-          <IsOutlined>False</IsOutlined>
-          <BorderStyle>SolidLine</BorderStyle>
-          <Margin>
-            <DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
-          </Margin>
-          <HorizontalAlignment>Left</HorizontalAlignment>
-          <VerticalAlignment>Top</VerticalAlignment>
-          <FitMode>None</FitMode>
-          <IsVertical>False</IsVertical>
-          <FormattedText>
-            <FitMode>None</FitMode>
-            <HorizontalAlignment>Left</HorizontalAlignment>
-            <VerticalAlignment>Top</VerticalAlignment>
-            <IsVertical>False</IsVertical>
-            <LineTextSpan>
-              <TextSpan>
-                <Text>status</Text>
-                <FontInfo>
-                  <FontName>BentonSans</FontName>
-                  <FontSize>12</FontSize>
-                  <IsBold>False</IsBold>
-                  <IsItalic>False</IsItalic>
-                  <IsUnderline>True</IsUnderline>
-                  <FontBrush>
-                    <SolidColorBrush>
-                      <Color A="1" R="0" G="0" B="0"></Color>
-                    </SolidColorBrush>
-                  </FontBrush>
-                </FontInfo>
-              </TextSpan>
-            </LineTextSpan>
-          </FormattedText>
-          <ObjectLayout>
-            <DYMOPoint>
-              <X>0.2433333</X>
-              <Y>1.666667</Y>
-            </DYMOPoint>
-            <Size>
-              <Width>2</Width>
-              <Height>0.2604167</Height>
+              <Width>3.706681</Width>
+              <Height>0.4693005</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -340,8 +132,8 @@
           <VerticalAlignment>Middle</VerticalAlignment>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.2533333</X>
-              <Y>0.07666667</Y>
+              <X>0.2333333</X>
+              <Y>0.07666673</Y>
             </DYMOPoint>
             <Size>
               <Width>3.646667</Width>
@@ -394,7 +186,7 @@
                 <Text>Major Here</Text>
                 <FontInfo>
                   <FontName>BentonSans</FontName>
-                  <FontSize>20.7</FontSize>
+                  <FontSize>24</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -409,12 +201,12 @@
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.2433333</X>
-              <Y>1.375</Y>
+              <X>0.2333333</X>
+              <Y>1.280267</Y>
             </DYMOPoint>
             <Size>
-              <Width>3.696667</Width>
-              <Height>0.4166668</Height>
+              <Width>3.706672</Width>
+              <Height>0.4692985</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
@@ -463,7 +255,7 @@
                 <Text>Status here</Text>
                 <FontInfo>
                   <FontName>BentonSans</FontName>
-                  <FontSize>20</FontSize>
+                  <FontSize>23.1</FontSize>
                   <IsBold>False</IsBold>
                   <IsItalic>False</IsItalic>
                   <IsUnderline>False</IsUnderline>
@@ -478,12 +270,12 @@
           </FormattedText>
           <ObjectLayout>
             <DYMOPoint>
-              <X>0.2433333</X>
-              <Y>1.870725</Y>
+              <X>0.2333333</X>
+              <Y>1.770618</Y>
             </DYMOPoint>
             <Size>
-              <Width>3.642125</Width>
-              <Height>0.4026102</Height>
+              <Width>3.694168</Width>
+              <Height>0.4555904</Height>
             </Size>
           </ObjectLayout>
         </TextObject>
